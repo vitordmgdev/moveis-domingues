@@ -20,7 +20,7 @@ O projeto utiliza [Turborepo](httpss://turbo.build/repo) para gerenciar o monore
 
 ## Tecnologias Utilizadas
 
-*   **Aplicações (Web e App):** [Next.js](httpss://nextjs.org/)
+*   **Aplicações (Web e App CRM):** [Next.js](httpss://nextjs.org/)
 *   **API:** [Fastify](httpss://www.fastify.io/)
 *   **Monorepo:** [Turborepo](httpss://turbo.build/repo)
 
