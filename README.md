@@ -1,6 +1,6 @@
 # Móveis Domingues
 
-Este é um repositório monolítico para o projeto Móveis Domingues, que inclui a página web, o aplicativo e a API.
+Este é um projeto destinado a Marcenaria Domingues no ramo de móveis sob-medida, este repositório consiste em um projeto full-stack, onde contém um app NextJS, onde tem a landing page e o CRM, e a api NodeJS com Fastify.
 
 ## Estrutura do Projeto
 
@@ -9,9 +9,9 @@ O projeto utiliza [Turborepo](httpss://turbo.build/repo) para gerenciar o monore
 ```
 /
 |-- apps/
-|   |-- web/         # Aplicação Next.js para a página web
-|   |-- app/         # Aplicação Next.js para o aplicativo
-|   |-- api/         # API com Fastify
+|   |-- web/         # Aplicação Next.js para web
+|   |-- crm/         # Aplicação Next.js para CRM
+|   |-- api/         # Api NodeJS com Fastify para o CRM
 |-- packages/
 |   |-- ui/          # Componentes React compartilhados
 |   |-- config/      # Configurações compartilhadas (ESLint, TypeScript)
