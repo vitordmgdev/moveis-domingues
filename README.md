@@ -9,11 +9,14 @@ O projeto utiliza [Turborepo](httpss://turbo.build/repo) para gerenciar o monore
 ```
 /
 |-- apps/
-|   |-- web/         # Aplicação Next.js para web
-|   |-- crm/         # Aplicação Next.js para CRM
-|   |-- api/         # Api NodeJS com Fastify para o CRM
+|   |-- web/ # Landing page + área do usuário + CRM
+|   |-- api/ # API NodeJS (Fastify)
 |-- packages/
 |   |-- ui/          # Componentes React compartilhados
+|   |-- db/          # Banco de dados compartilhado
+|       |-- prisma/
+|           |-- schema.prisma
+|       |-- index.ts
 |   |-- config/      # Configurações compartilhadas (ESLint, TypeScript)
 |   |-- tsconfig/    # tsconfig.json compartilhados
 ```
