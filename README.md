@@ -21,11 +21,11 @@ O projeto utiliza [Turborepo](httpss://turbo.build/repo) para gerenciar o monore
 |   |-- tsconfig/    # tsconfig.json compartilhados
 ```
 
-## Tecnologias Utilizadas
+## Tecnologias
 
-*   **Aplicações (Web e App CRM):** [Next.js](httpss://nextjs.org/)
-*   **API:** [Fastify](httpss://www.fastify.io/)
-*   **Monorepo:** [Turborepo](httpss://turbo.build/repo)
+*   **Web:** React, [Next.js](https://nextjs.org/), [TailwindCSS](https://tailwindcss.com/), Typescript
+*   **Api:** NodeJS, [Fastify](https://www.fastify.io/), Typescript
+*   **Monorepo:** [Turborepo](https://turbo.build/repo), [PrismaORM](https://www.prisma.io/), PostgreSQL
 
 ## Começando
 
