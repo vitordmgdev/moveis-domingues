@@ -1,4 +1,4 @@
-# Móveis Domingues
+# Web Marcenaria
 
 Este é um projeto destinado a Marcenaria Domingues no ramo de móveis sob-medida, este repositório consiste em um projeto full-stack, onde contém um app NextJS, onde tem a landing page e o CRM, e a api NodeJS com Fastify.
 
