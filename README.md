@@ -23,9 +23,10 @@ O projeto utiliza [Turborepo](httpss://turbo.build/repo) para gerenciar o monore
 
 ## Tecnologias
 
-*   **Web:** React, [Next.js](https://nextjs.org/), [TailwindCSS](https://tailwindcss.com/), Typescript
-*   **Api:** NodeJS, [Fastify](https://www.fastify.io/), Typescript
-*   **Monorepo:** [Turborepo](https://turbo.build/repo), [PrismaORM](https://www.prisma.io/), PostgreSQL
+*   **Web:** React, [Next.js](https://nextjs.org/), [TailwindCSS](https://tailwindcss.com/), [Typescript](https://www.typescriptlang.org/)
+*   **Api:** NodeJS, [Fastify](https://www.fastify.io/), [Typescript](https://www.typescriptlang.org/)
+*   **Monorepo:** [Turborepo](https://turbo.build/repo)
+*   **Banco de dados:** PostgreSQL, [PrismaORM](https://www.prisma.io/)
 
 ## Começando
 
