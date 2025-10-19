@@ -1,11 +1,15 @@
 {
   "extends": "@repo/typescript-config/nextjs.json",
   "compilerOptions": {
+    "baseUrl": ".",
     "plugins": [
       {
         "name": "next"
       }
-    ]
+    ],
+    "paths": {
+      "@web-marcenaria/shared": ["packages/shared/src"]
+    }
   },
   "include": [
     "**/*.ts",
@@ -16,5 +20,5 @@
   ],
   "exclude": [
     "node_modules"
-  ]
+  ],
 }
