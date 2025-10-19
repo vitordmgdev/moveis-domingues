@@ -9,8 +9,8 @@ O projeto utiliza [Turborepo](httpss://turbo.build/repo) para gerenciar o monore
 ```
 /
 |-- apps/
-|   |-- web/ # Landing page + área do usuário + CRM
-|   |-- api/ # API NodeJS (Fastify)
+|   |-- web/ # Landing page + área do usuário
+|   |-- crm/ # App CRM para gestão
 |-- packages/
 |   |-- ui/          # Componentes React compartilhados
 |   |-- db/          # Banco de dados compartilhado
@@ -24,7 +24,6 @@ O projeto utiliza [Turborepo](httpss://turbo.build/repo) para gerenciar o monore
 ## Tecnologias
 
 *   **Web:** React, [Next.js](https://nextjs.org/), [TailwindCSS](https://tailwindcss.com/), [Typescript](https://www.typescriptlang.org/)
-*   **Api:** NodeJS, [Fastify](https://www.fastify.io/), [Typescript](https://www.typescriptlang.org/)
 *   **Monorepo:** [Turborepo](https://turbo.build/repo)
 *   **Banco de dados:** PostgreSQL, [PrismaORM](https://www.prisma.io/)
 
