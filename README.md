@@ -17,8 +17,8 @@ O projeto utiliza [Turborepo](httpss://turbo.build/repo) para gerenciar o monore
 |       |-- prisma/
 |           |-- schema.prisma
 |       |-- index.ts
-|   |-- config/      # Configurações compartilhadas (ESLint, TypeScript)
-|   |-- tsconfig/    # tsconfig.json compartilhados
+|   |-- eslint/               # Configurações ESLint
+|   |-- typescript-config/    # Configurações Typescript
 ```
 
 ## Tecnologias
