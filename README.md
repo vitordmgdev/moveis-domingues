@@ -13,7 +13,7 @@ O projeto utiliza [Turborepo](httpss://turbo.build/repo) para gerenciar o monore
 |   |-- crm/ # App CRM para gestão
 |-- packages/
 |   |-- ui/          # Componentes React compartilhados
-|   |-- db/          # Banco de dados compartilhado
+|   |-- shared/      # Pacotes compartilhados
 |       |-- prisma/
 |           |-- schema.prisma
 |       |-- index.ts
