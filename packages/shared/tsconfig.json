@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",               // JS de saída moderno
+    "module": "ESNext",               // ou "CommonJS" dependendo do seu Node
+    "moduleResolution": "Node",
+    "outDir": "dist",                 // onde os arquivos compilados vão
+    "rootDir": "src",                 // pasta dos arquivos fonte
+    "strict": true,                   // boas práticas TS
+    "esModuleInterop": true,          // compatibilidade com import/export
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,              // gera .d.ts
+    "declarationMap": true,           // gera mapa de declaração
+    "skipLibCheck": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}

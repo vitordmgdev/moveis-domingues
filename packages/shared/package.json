@@ -1,0 +1,23 @@
+{
+  "name": "@web-marcenaria/shared",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "private": false,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "prisma": "^6.17.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@prisma/client": "6.17.1"
+  }
+}
